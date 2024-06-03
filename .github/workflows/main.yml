@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: docker.io/jmartinezblanco/api:${{ env.COMMIT_SHA }}
+          tags: jmartinezblanco/api:${{ env.COMMIT_SHA }}
